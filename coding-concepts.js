@@ -7,7 +7,7 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+//console.log(colors.push("indigo"))
 
 // a) Your answer:
 // b) Verify and explain:
@@ -16,16 +16,16 @@ const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 // --------------------1) What will this log?
 
 const cohort = "LEARN 2022"
-// console.log(cohort.length)
+//console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: The console log should output the length of the string "LEARN 2022" which has 9 characters inside. The output should be 9.
+// b) Verify and explain: The output was 10, I forgot about the space counting as part of the length. 
 
 
 // --------------------2) What will this log?
 
 const greeting = "Hello World!"
-// console.log(greeting[4])
+//console.log(greeting[4])
 
 // a) Your answer:
 // b) Verify and explain:
