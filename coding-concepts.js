@@ -47,7 +47,7 @@ const weekendDays = ["saturday", "sunday"]
 //console.log(weekendDays.toUpperCase())
 
 // a) Your answer: It should say SATURDAY, SUNDAY, now uppercased because of the .toUpperCase in the console.log
-// b) Verify and explain: It instead came with an error due to ["saturday", "sunday"] being the improper syntax for the .toUpperCase() function. I believe the following is the correct way:
+// b) Verify and explain: It instead came with an error due to ["saturday", "sunday"] being the improper syntax for the .toUpperCase() function. It is an array and the .toUpperCase() should only work with strings. I believe the following is the correct way as I've changed the const to a string.
 //const weekendDays = ('saturday, sunday')
 //console.log(weekendDays.toUpperCase())
 //output: SATURDAY, SUNDAY
@@ -58,5 +58,5 @@ const weekendDays = ["saturday", "sunday"]
 const dataTypes = ["number", "string", "Boolean"]
 console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: To be honest I'm not sure, I think it could output 3, as it's the length of strings in the array. Or it could output object as the 3 strings in the array would be an object the 'typeof' is identifying. I'm not confident with either answer as I think something different happens when the two 'typeof' and '.length' are mixed.
+// b) Verify and explain: The output was "number". I believe this is the output because it first determined the '.length' which was 3, and then output the 'typeof' of the number 3 which is of course a number. I'm not confident this is the correct explanation, and am struggling to find additional resources on the offical explanation on this so if I'm way off here, please let me know, thanks!
